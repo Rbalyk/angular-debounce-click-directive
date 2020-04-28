@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-debounce-click-directive';
+  count = 0;
+
+  increase(){
+    this.count += 1;
+  }
+
+  decrease(){
+    this.count -= 1;
+  }
 }
